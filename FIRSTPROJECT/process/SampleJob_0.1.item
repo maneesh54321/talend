@@ -1,6 +1,49 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="company_Encoding" prompt="company_Encoding?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="company_LastColumn" prompt="company_LastColumn?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value=""/>
+    <contextParameter comment="" name="company_Header" prompt="company_Header?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="company_File" prompt="company_File?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_File" value="D:/talend/data/company.xlsx"/>
+    <contextParameter comment="" name="company_FirstColumn" prompt="company_FirstColumn?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="company_ThousandSeparator" prompt="company_ThousandSeparator?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="','"/>
+    <contextParameter comment="" name="company_DecimalSeparator" prompt="company_DecimalSeparator?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="'.'"/>
+    <contextParameter comment="" name="country_code_Header" prompt="country_code_Header?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="country_code_File" prompt="country_code_File?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_File" value="D:/talend/data/country_codes.csv"/>
+    <contextParameter comment="" name="country_code_RowSeparator" prompt="country_code_RowSeparator?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="country_code_FieldSeparator" prompt="country_code_FieldSeparator?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="country_code_Encoding" prompt="country_code_Encoding?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="US-ASCII"/>
+  </context>
+  <context confirmationNeeded="false" name="PROD">
+    <contextParameter comment="" name="company_Encoding" prompt="company_Encoding?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="company_LastColumn" prompt="company_LastColumn?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value=""/>
+    <contextParameter comment="" name="company_Header" prompt="company_Header?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="company_File" prompt="company_File?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_File" value="D:/talend/data/company.xlsx"/>
+    <contextParameter comment="" name="company_FirstColumn" prompt="company_FirstColumn?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="company_ThousandSeparator" prompt="company_ThousandSeparator?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="','"/>
+    <contextParameter comment="" name="company_DecimalSeparator" prompt="company_DecimalSeparator?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="'.'"/>
+    <contextParameter comment="" name="country_code_Header" prompt="country_code_Header?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="country_code_File" prompt="country_code_File?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_File" value="D:/talend/data/country_codes.csv"/>
+    <contextParameter comment="" name="country_code_RowSeparator" prompt="country_code_RowSeparator?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="country_code_FieldSeparator" prompt="country_code_FieldSeparator?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="country_code_Encoding" prompt="country_code_Encoding?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="US-ASCII"/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="company_Encoding" prompt="company_Encoding?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="company_LastColumn" prompt="company_LastColumn?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value=""/>
+    <contextParameter comment="" name="company_Header" prompt="company_Header?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="company_File" prompt="company_File?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_File" value="D:/talend/data/company.xlsx"/>
+    <contextParameter comment="" name="company_FirstColumn" prompt="company_FirstColumn?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="company_ThousandSeparator" prompt="company_ThousandSeparator?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="','"/>
+    <contextParameter comment="" name="company_DecimalSeparator" prompt="company_DecimalSeparator?" promptNeeded="false" repositoryContextId="_sQ2aIPsPEei9du0-MtbVpQ" type="id_String" value="'.'"/>
+    <contextParameter comment="" name="country_code_Header" prompt="country_code_Header?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="country_code_File" prompt="country_code_File?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_File" value="D:/talend/data/country_codes.csv"/>
+    <contextParameter comment="" name="country_code_RowSeparator" prompt="country_code_RowSeparator?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="country_code_FieldSeparator" prompt="country_code_FieldSeparator?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="&quot;,&quot;"/>
+    <contextParameter comment="" name="country_code_Encoding" prompt="country_code_Encoding?" promptNeeded="false" repositoryContextId="_NGpygPsQEei9du0-MtbVpQ" type="id_String" value="US-ASCII"/>
+  </context>
   <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -107,13 +150,191 @@
     <routinesParameter id="_uD7psPsBEei9du0-MtbVpQ" name="TalendStringUtil"/>
     <routinesParameter id="_uEMvcPsBEei9du0-MtbVpQ" name="SQLike"/>
   </parameters>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2f2c4229-6ddc-4457-b7b6-469903b56779"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>dOl6eYdyE/RYpQOoDIyNY0hf5KXonwh43S0dWvPVSKyRlT2lAsrPjf24u8ghnKK//tfP6zBBixeq
-Lw5iUVtSiQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_54fdc8d0-8c81-409e-91c1-a5d63f350291"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8Zu/BUTfhVReGvUHRublIhswM9xObvbtxTKkXib5/VVRtp0ZNcxxPsq++Vcv5r9+7qKkEO0I7yTF
-qJEkqLtWsw==</DigestValue></Reference></SignedInfo><SignatureValue>Whu7iwVxfxMzQ0sSQsA5aIqj0LnaO7vvaC1jjHa8cJy5zw4PUFSfKJpieS4fcEkuypUpCMUuaEYO
-amUdlsAoQvs0TxnyzWviHUviYDIxGPpTTbW0FKBvRmG9obGCftpj8IV5HbT6omXDbjUuOtfDT2LP
-d8mk/teQufOo4VZkzbBFgyvUCH2uQhK1iI489qMBTudWB91LT5QUTED7qFVDNyPlQfJ/HtjxrjiI
-Qoh3L6vwFpo2HPE1HodZG7B4Wx64Q+M4nwE0T1FErKWCwMCx8GV/Z6UHspszf4M/LTGjh5avMXlg
-exlBVExCfkFZWuFlU5tz++nkD1eA8TaHPDaYYQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_xSP3cPsPEei9du0-MtbVpQ"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.company_File"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
+    <elementParameter field="TABLE" name="SHEETLIST" show="false">
+      <elementValue elementRef="SHEETNAME" value="&quot;Sheet1&quot;"/>
+      <elementValue elementRef="USE_REGEX" value=""/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="HEADER" value="context.company_Header"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="context.company_FirstColumn"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value="context.company_LastColumn"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_xSP3cPsPEei9du0-MtbVpQ - metadata"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_xSP3cPsPEei9du0-MtbVpQ - metadata"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="context.company_ThousandSeparator"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="context.company_DecimalSeparator"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="bank_account_number"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="country_code"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="bank_account_number"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="country_code"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.company_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" show="false" value="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" show="false" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputExcel_1">
+      <column comment="" key="false" length="50" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="bank_account_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="country_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="50" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="address" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="bank_account_number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="country_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_X9dFUPsCEei9du0-MtbVpQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="address" nullable="true" type="id_String"/>
+        <mapperTableEntries name="bank_account_number" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="country_code" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="code" nullable="true" type="id_String"/>
+        <mapperTableEntries name="name" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_OAs_8PsQEei9du0-MtbVpQ"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_OAs_8PsQEei9du0-MtbVpQ - metadata"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.country_code_File"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.country_code_RowSeparator"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="context.country_code_RowSeparator"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.country_code_FieldSeparator"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HEADER" value="context.country_code_Header"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_OAs_8PsQEei9du0-MtbVpQ - metadata"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;D:/talend/workspace&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="code"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.country_code_Encoding"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="code"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="3" name="code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="3" name="code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="13" name="name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f5c8b0fd-b877-4d18-96b4-2b0898a1feb7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6IT4x6ydpl6UPQPpS/veFDEISmM+fhDkFZXOhzzmqFm9cBEX9XpYV1CuyomSlmGHibOPxSX6rOyx
+CsndqSoQJA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c2709081-61ca-4d6e-93fa-597d59ca3aa7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mnuyde+VVmN/t7l3n3KNHOcZOIjnVFAVsgxVu5LZFe4BfEEoffSPfl5RRJuPSY6wgu5eqGx/rcUB
+msoBKZBu5g==</DigestValue></Reference></SignedInfo><SignatureValue>C4JF2hAnfJSZ3FivpRs6WSxu3eqPui9p5fM5CjlKoie8XkmKO1IKeEIikhSQ7F0nyjhkA57AMnOJ
+1BuvEvrsV/9f2+WtRdD5Go/MtmJ1rsjloXKYImeVEaA9rYGmfoVWHu/c4jF9SSXq9PqGXagyouE/
+w/ILTg4PgEmc0X7mreNyaerxrfKZnvUxvQ+rhhA8SEofBzOg0zZ94qY4uV8boVN8FyyTzULzu8q8
+1qM6yThSPtUaNk3A3pXtX/TMU5K5uD9tHBXmQLUIhhvCscoAyvFF5WMJ9zqlEMmpcN5JC8zd/4Y7
+LozNss7D3oI79VGWv0eXliJi+KTD6FSXYOo8UA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -137,4 +358,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_54fdc8d0-8c81-409e-91c1-a5d63f350291" Target="#_2f2c4229-6ddc-4457-b7b6-469903b56779"><Timestamp>2018-12-08 16:00:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c2709081-61ca-4d6e-93fa-597d59ca3aa7" Target="#_f5c8b0fd-b877-4d18-96b4-2b0898a1feb7"><Timestamp>2018-12-08 17:40:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
